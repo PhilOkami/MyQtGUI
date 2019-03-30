@@ -24,8 +24,9 @@ private slots:
 
 private:
 	Ui::MyQtGUIClass ui;
-	Mat image;
 	QLabel *label;
+	Mat image;
+	
 };
 
 

@@ -6,23 +6,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>874</width>
-    <height>583</height>
+    <width>640</width>
+    <height>506</height>
    </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
   </property>
   <property name="windowTitle">
    <string>MyQtGUI</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QLabel" name="label">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="openImage">
       <property name="text">
-       <string/>
+       <string>openImage</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="2" rowspan="2">
+    <item>
      <widget class="QScrollArea" name="scrollArea">
       <property name="widgetResizable">
        <bool>true</bool>
@@ -32,17 +35,17 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>767</width>
-         <height>541</height>
+         <width>620</width>
+         <height>415</height>
         </rect>
        </property>
       </widget>
      </widget>
     </item>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="openImage">
+    <item>
+     <widget class="QLabel" name="label">
       <property name="text">
-       <string>openImage</string>
+       <string/>
       </property>
      </widget>
     </item>
@@ -62,12 +65,12 @@
    <slot>on_OpenImage_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>81</x>
-     <y>252</y>
+     <x>95</x>
+     <y>31</y>
     </hint>
     <hint type="destinationlabel">
-     <x>88</x>
-     <y>38</y>
+     <x>84</x>
+     <y>167</y>
     </hint>
    </hints>
   </connection>
