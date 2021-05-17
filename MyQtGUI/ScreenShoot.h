@@ -1,7 +1,5 @@
 #pragma once
 
-#define SCREENSHOOT_H
-
 #include <QWidget>
 #include <QApplication> //QT库
 #include <QLabel> //动态显示截图区域尺寸
@@ -23,7 +21,7 @@ private:
 	int g_height; //屏幕高度
 	static ScreenShoot* instance;	//例子
 	ScreenShoot();
-
+	~ScreenShoot();
 
 public:
 	
@@ -36,7 +34,7 @@ public:
 	
 	
 	void grabScreen();//截屏函数
-	~ScreenShoot();
+	
 
 
 };

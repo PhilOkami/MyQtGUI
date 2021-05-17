@@ -26,6 +26,6 @@ void ScreenShoot::grabScreen()
 {
 	//½ØÈ¡µ±Ç°ÆÁÄ»
 	QScreen *screen = QGuiApplication::primaryScreen();
-	screen->grabWindow(0).save("./Output/ScreenShoot/bg.png", "png");
+	screen->grabWindow(0).save("./OutputSer/ScreenShoot/bg.png", "png");
 }
 
