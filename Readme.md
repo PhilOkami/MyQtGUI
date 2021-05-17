@@ -11,3 +11,12 @@ C++
 
 VS2015+Qt
 Windows
+
+# 流程
+
+![整体流程](./img/Overall.png "整体流程")
+![详细流程](./img/Detailed.png "详细流程")
+
+# 效果展示
+
+![效果展示](./img/show1.png "效果展示")
